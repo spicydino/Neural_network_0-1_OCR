@@ -41,8 +41,12 @@ $$\hat{m}_t = \frac{m_t}{1 - \beta_1^t}$$
 ### Compute bias-corrected second raw moment estimate $\hat{v}^t$:
 $$m_t = \beta_1 \cdot m_{t-1} + (1 - \beta_1) \cdot g_t $$
 
+
 ### Update the parameters $θ$:
 $$\theta_t = \theta_{t-1} - \frac{\alpha \cdot \hat{v}_t}{\sqrt{\hat{m}_t} + \epsilon}$$
+
+##Acknowlegdement 
+[Adityadikonda].{https://github.com/Adityadikonda10}
 
 
 
